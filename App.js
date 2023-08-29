@@ -4,7 +4,7 @@ import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 
 export default function App() {
 
-  const [age, setAge] = useState(0)
+  const [age, setAge] = useState('')
   const [HR, setHR] = useState('')
 
   const calculateHR = () => {
